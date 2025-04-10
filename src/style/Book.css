@@ -1,0 +1,49 @@
+.book {
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 3px 6px 9px rgba(0, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 350px;
+    width: 300px;
+    transition: transform 1.2s;
+}
+.book:hover {
+    transform: scale(1.1);
+}
+
+
+.book-1 {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5));
+    height: 200px;
+    width: 300px;
+}
+
+.book-cover {
+    height: 200px;
+    margin: 0 auto;
+    width: 150px;
+}
+
+.book-2 {
+    background-color: rgba(0, 255, 255, 0.5);
+    height: 150px;
+    padding: 10px;
+}
+
+.title {
+    font-weight: bold ;
+}
+
+.author {
+    font-style: italic;
+}
+
+.description {
+    font-weight: 500;
+}
+
+
+

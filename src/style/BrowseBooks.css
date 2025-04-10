@@ -1,0 +1,34 @@
+.browse-books {
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 75px 40px 40px 40px;
+}
+
+.browse-books h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.browse-books input {
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px solid aqua;
+    border-radius: 20px;
+    font-style: italic;
+    margin: auto;
+    outline: none;
+    padding: 5px 10px;
+    text-align: center;
+    width: calc(1.5/3 * 100%);
+}
+
+.browse-books .books {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-around;
+    padding: 40px;
+}

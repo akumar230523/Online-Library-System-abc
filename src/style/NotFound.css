@@ -1,0 +1,24 @@
+.not-found {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    font-size: 25px;
+    min-height: 100vh;
+}
+
+.not-found .back-button {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+.not-found .back-button:hover{
+    background-color: black;
+}
+
+
