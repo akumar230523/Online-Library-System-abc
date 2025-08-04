@@ -5,7 +5,7 @@
     Node.js installed
 
 
-# Open Git Bash or VS Code Termina on your Computer
+## Open Git Bash or VS Code Termina on your Computer
 
 📁 Clone the Repository
     
